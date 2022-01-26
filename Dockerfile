@@ -13,4 +13,3 @@ RUN apt-get update && apt-get install -y unzip \
 	&& unzip -o protoc.zip -d /usr/local bin/protoc \
 	&& rm -f protoc.zip
 
-ENTRYPOINT ["/bin/bash"]
